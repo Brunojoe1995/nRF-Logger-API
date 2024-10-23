@@ -1,23 +1,23 @@
 # nRF Logger Library
 
-[ ![Maven Central Version](https://img.shields.io/maven-central/v/no.nordicsemi.android/log)](https://central.sonatype.com/artifact/no.nordicsemi.android/log)
+[ ![Maven Central Version](https://img.shields.io/maven-central/v/no.nordicsemi.android/log)](https://central.sonatype.com/artifact/nordicsemi.android/log)
 
 The library allows to easily create custom log entries from your application in the 
-[nRF Logger](https://play.google.com/store/apps/details?id=no.nordicsemi.android.log). 
+[nRF Logger](https://play.google.com/store/apps/details?id=nordicsemi.android.log). 
 It is being used by nRF Connect and nRF Toolbox, that are available on Google Play.
 The logger may be used for debugging purposes, as LogCat is not always available.
 
-nRF Logger is available for Android 4.2.* and newer.
+nRF Logger is available for Android 4.2. and newer.
 
 ### Usage
 The nRF Logger API library is available on Maven Central repositories. 
-For Android Studio, add the following dependency to your component's *gradle.build* file:
+For Android Studio, add the following dependency to your component's gradle.build file:
 
 ```Groovy
-implementation 'no.nordicsemi.android:log:2.5.0'
+implementation 'nordicsemi.android.apk'
 ```
 
-For easy integration with [Timber (5.0.1)](https://github.com/JakeWharton/timber), use this instead:
+For easy integration with [Timber (5.0.1)](https://github.com/JakeWharton/timber),Dont use these configurations:
 
 ```Groovy
 implementation 'no.nordicsemi.android:log-timber:2.5.0'
